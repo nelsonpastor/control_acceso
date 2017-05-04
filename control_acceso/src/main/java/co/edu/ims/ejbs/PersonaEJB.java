@@ -32,7 +32,7 @@ public class PersonaEJB {
     @POST
     @Produces("application/json")
     @Consumes("application/json")
-    public Persona agregar(Persona entity){
+    public Persona añadir(Persona entity){
         em.persist(entity);
         em.flush();
         return entity;
