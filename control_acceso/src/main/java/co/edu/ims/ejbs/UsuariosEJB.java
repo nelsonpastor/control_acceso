@@ -31,7 +31,7 @@ public class UsuariosEJB {
     @POST
     @Produces("application/json")
     @Consumes("application/json")
-    public Usuarios agregar(Usuarios entity) {
+    public Usuarios anadir(Usuarios entity) {
         em.persist(entity);
         em.flush();
         return entity;
