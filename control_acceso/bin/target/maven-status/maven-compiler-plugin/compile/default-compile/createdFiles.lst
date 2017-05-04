@@ -1,0 +1,5 @@
+co\edu\ims\ejbs\PersonaEJB.class
+co\edu\ims\modelo\Usuarios.class
+co\edu\ims\modelo\Persona.class
+co\edu\ims\modelo\Rol.class
+co\edu\ims\config\RestConfiguracion.class
