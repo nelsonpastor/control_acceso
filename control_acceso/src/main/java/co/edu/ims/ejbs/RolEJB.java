@@ -34,7 +34,7 @@ public class RolEJB {
     @POST
     @Produces("application/json")
     @Consumes("application/json")
-    public Rol agregar(Rol entity){
+    public Rol anadir(Rol entity){
         em.persist(entity);
         em.flush();
         return entity;
